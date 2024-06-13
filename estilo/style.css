@@ -40,3 +40,23 @@ iframe#celular{
     height: 467px;
     width: 262px;
 }
+
+section#redes-sociais{
+    text-align: right; /* Para deixar as imagens no lado direito */
+}
+
+section#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 100%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box; /* Fazer a borda ser parte da própria caixa, sem interferir na movimentação dos outros botões */
+
+}
+
+section#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.63);
+    transform: translate(-5%, -5%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.63);
+    transition: transform 0.3s, border 1s;
+}
